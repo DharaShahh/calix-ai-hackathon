@@ -1,0 +1,82 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="36" fill="#081B36"/>
+  <rect y="70" width="1200" height="830" fill="url(#sky)"/>
+  <rect y="640" width="1200" height="260" fill="url(#ground)"/>
+
+  <g opacity="0.95">
+    <rect x="36" y="476" width="66" height="248" rx="8" fill="#CED8EB"/>
+    <rect x="118" y="398" width="88" height="326" rx="8" fill="#7D93BC"/>
+    <rect x="148" y="336" width="32" height="62" rx="8" fill="#9DB0D2"/>
+    <rect x="226" y="430" width="74" height="294" rx="8" fill="#E5ECF8"/>
+    <rect x="320" y="354" width="92" height="370" rx="8" fill="#5E77A8"/>
+    <rect x="434" y="462" width="64" height="262" rx="8" fill="#B6C4DE"/>
+    <rect x="522" y="382" width="96" height="342" rx="8" fill="#D7E1F1"/>
+    <rect x="646" y="334" width="80" height="390" rx="8" fill="#6B85B5"/>
+    <rect x="750" y="442" width="58" height="282" rx="8" fill="#C8D4E9"/>
+    <rect x="830" y="392" width="84" height="332" rx="8" fill="#A7B8D7"/>
+    <rect x="940" y="324" width="98" height="400" rx="8" fill="#E6EDF8"/>
+    <rect x="1064" y="406" width="82" height="318" rx="8" fill="#7390C0"/>
+  </g>
+
+  <g opacity="0.8">
+    <rect x="56" y="520" width="8" height="10" fill="#FCF7B5"/>
+    <rect x="70" y="520" width="8" height="10" fill="#FCF7B5"/>
+    <rect x="134" y="458" width="10" height="12" fill="#FCF7B5"/>
+    <rect x="150" y="458" width="10" height="12" fill="#FCF7B5"/>
+    <rect x="166" y="458" width="10" height="12" fill="#FCF7B5"/>
+    <rect x="244" y="494" width="10" height="12" fill="#FCF7B5"/>
+    <rect x="262" y="494" width="10" height="12" fill="#FCF7B5"/>
+    <rect x="280" y="494" width="10" height="12" fill="#FCF7B5"/>
+    <rect x="350" y="420" width="10" height="12" fill="#FCF7B5"/>
+    <rect x="368" y="420" width="10" height="12" fill="#FCF7B5"/>
+    <rect x="548" y="450" width="10" height="12" fill="#FCF7B5"/>
+    <rect x="566" y="450" width="10" height="12" fill="#FCF7B5"/>
+    <rect x="674" y="404" width="10" height="12" fill="#FCF7B5"/>
+    <rect x="692" y="404" width="10" height="12" fill="#FCF7B5"/>
+    <rect x="862" y="448" width="10" height="12" fill="#FCF7B5"/>
+    <rect x="880" y="448" width="10" height="12" fill="#FCF7B5"/>
+    <rect x="972" y="388" width="10" height="12" fill="#FCF7B5"/>
+    <rect x="990" y="388" width="10" height="12" fill="#FCF7B5"/>
+    <rect x="1092" y="468" width="10" height="12" fill="#FCF7B5"/>
+    <rect x="1110" y="468" width="10" height="12" fill="#FCF7B5"/>
+  </g>
+
+  <g stroke="#B5F6FF" stroke-width="3" stroke-linecap="round" opacity="0.9">
+    <path d="M10 328C150 160 242 196 384 300C520 398 662 344 804 228C918 134 1040 156 1196 306"/>
+    <path d="M26 540C200 302 354 292 534 450C700 596 878 582 1190 376"/>
+    <path d="M140 198C258 116 392 128 486 258C592 404 708 420 824 224"/>
+    <path d="M248 256C338 188 466 194 560 322C646 442 746 454 842 304"/>
+    <path d="M424 144C506 68 602 84 664 202C734 334 810 348 888 186"/>
+    <path d="M740 164C806 102 902 104 964 214C1034 338 1108 346 1182 220"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <circle cx="26" cy="540" r="13" fill="#9EF6FF"/>
+    <circle cx="140" cy="198" r="10" fill="#9EF6FF"/>
+    <circle cx="248" cy="256" r="10" fill="#9EF6FF"/>
+    <circle cx="424" cy="144" r="10" fill="#9EF6FF"/>
+    <circle cx="560" cy="322" r="12" fill="#9EF6FF"/>
+    <circle cx="740" cy="164" r="10" fill="#9EF6FF"/>
+    <circle cx="888" cy="186" r="10" fill="#9EF6FF"/>
+    <circle cx="964" cy="214" r="12" fill="#9EF6FF"/>
+    <circle cx="1122" cy="172" r="10" fill="#9EF6FF"/>
+    <circle cx="1190" cy="376" r="13" fill="#9EF6FF"/>
+  </g>
+
+  <defs>
+    <linearGradient id="sky" x1="600" y1="70" x2="600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0C3E7A"/>
+      <stop offset="0.45" stop-color="#0D2D59"/>
+      <stop offset="1" stop-color="#0A1830"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="600" y1="640" x2="600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#132442" stop-opacity="0"/>
+      <stop offset="1" stop-color="#08111F"/>
+    </linearGradient>
+    <filter id="glow" x="-34" y="84" width="1284" height="516" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="16" result="effect1_foregroundBlur"/>
+    </filter>
+  </defs>
+</svg>
